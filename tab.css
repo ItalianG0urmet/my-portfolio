@@ -1,0 +1,64 @@
+.tab {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    padding: 1rem;
+}
+
+.button {
+    background-color: rgb(238, 204, 154);
+    color: rgb(27, 27, 26);
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(241, 204, 166, 0.3);
+    margin: 20px 2px 3px 20px;
+    width: 70px;
+    height: 35px;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    position: relative;
+    animation: slideIn 0.8s ease-out forwards;
+}
+
+
+
+
+.button a img {
+    width: 80px; 
+    height: 80px;
+    object-fit: contain;
+}
+
+
+.button:hover {
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 12px 20px rgba(228, 186, 144, 0.4);
+    filter: brightness(1.1);
+}
+
+.button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.button a:hover {
+    color: #ffdd57;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
