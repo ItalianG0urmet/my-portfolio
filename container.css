@@ -19,6 +19,21 @@
     text-align: center;
 }
 
+.project-box {
+    padding: 15px;
+    border: 5px solid rgb(238, 204, 154);
+    margin: 15px;
+    max-width: 30%;
+    min-width: 400px;
+    min-height: 100vb;
+    flex-wrap: wrap-reverse;
+    overflow:hidden
+}
+
+.project-box img {
+    max-width: 100%;
+    height: auto;
+}
 
 .container-center {
     max-width: 600px;
