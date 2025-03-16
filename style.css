@@ -6,8 +6,6 @@ body {
     margin: 15px;
 }
 
-
-
 @font-face {
     font-family: 'PixelFont';
     src: url('font/ByteBounce.woff2') format('woff2'),
