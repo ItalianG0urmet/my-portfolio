@@ -19,7 +19,6 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
 .project-box {
     padding: 16px;
     border: 5px solid rgb(238, 204, 154);
@@ -36,8 +35,22 @@
     height: auto;
 }
 
-=======
->>>>>>> 953cf7f (format)
+
+.project-box {
+    padding: 15px;
+    border: 5px solid rgb(238, 204, 154);
+    margin: 15px;
+    max-width: 500px;
+    min-width: 400px;
+    flex-wrap: wrap;
+    overflow:hidden
+} 
+
+.project-box img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container-center {
     max-width: 600px;
     width: 100%;
